@@ -98,13 +98,15 @@ class AuthController {
 
                 user.save();
 
-                const { accessToken } = tokenService.generateTokens({ 
+                const { accessToken, refreshToken } = tokenService.generateTokens({ 
                     _id: user._id,
                     verified: true,
                 });
         
+                await tokenService.storeRefreshToken(refreshToken, user._id);
+
                 const userDto = new UserDto(user);
-                return res.json({ user: userDto, auth: true, accessToken });
+                return res.json({ user: userDto, auth: true, accessToken, refreshToken });
 
                 
             } catch(err) {
@@ -181,13 +183,15 @@ class AuthController {
     
             const exist = bcrypt.compare(user.password, password);
             if(exist) {
-                const { accessToken } = tokenService.generateTokens({ 
+                const { accessToken, refreshToken } = tokenService.generateTokens({ 
                     _id: user._id,
                     verified: true,
                 });
+
+                await tokenService.storeRefreshToken(refreshToken, user._id);
         
                 const userDto = new UserDto(user);
-                return res.json({ user: userDto, auth: true, accessToken });
+                return res.status(200).json({ user: userDto, auth: true, accessToken, refreshToken });
             }
             return res.status(401).json({ message: 'Invalid user or password' });
             
@@ -198,7 +202,59 @@ class AuthController {
     }
 
     async logout(req, res) {
-        return res.json({ user: null, auth: false });
+        try {
+            const { refreshToken } = req.body;
+            console.log(refreshToken, 'logout');
+            await tokenService.removeToken(refreshToken);
+    
+            return res.status(200).json({ user: null, auth: false });
+        } catch(err) {
+            return res.status(500).json({ message: 'Internal server error !' });
+        }
+    }
+
+    async refresh(req, res) {
+
+        try {
+            const { refreshTokenFromCookie } = req.body;
+
+            let userData;
+            try {
+                userData = await tokenService.verifyRefreshToken(refreshTokenFromCookie);
+            } catch(err) {
+                return res.status(401).json({ message: 'Invalid token'});
+            }
+            
+            try {
+                const token = await tokenService.findRefreshToken(userData._id, refreshTokenFromCookie);
+                console.log(token, 'find ref');
+                if(!token) {
+                    return res.status(401).json({ message: 'Invalid token'});
+                }
+            } catch(err) {
+                return res.status(500).json({ message: 'Invalid token'});
+            }
+    
+            const user = await userService.findUser({ _id: userData._id });
+            if(!user) {
+                return res.status(404).json({ message: 'No user'});
+            }
+    
+            const { accessToken, refreshToken } = tokenService.generateTokens({ _id: userData._id });
+    
+            try {
+                await tokenService.updateRefreshToken(userData._id, refreshToken);
+            } catch(err) {
+                return res.status(404).json({ message: 'Internal Server error'});
+            }
+
+    
+            const userDto = new UserDto(user);
+            return res.status(200).json({ user: userDto, auth: true, accessToken, refreshToken });
+    
+        } catch(err) {
+            return res.status(500).json({ message: 'Internal server error !' });
+        }
     }
 }
 

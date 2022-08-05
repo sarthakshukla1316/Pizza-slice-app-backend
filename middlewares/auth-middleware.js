@@ -2,14 +2,19 @@ const tokenService = require("../services/token-service");
 
 const authMiddleware = async (req, res, next) => {
     try {
-        const { accessToken } = req.header.Authorization;
-        // console.log(accessToken);
-        if(!accessToken) {
+        const token = req.headers.authorization;
+        if(!token) {
             throw new Error();
         }
 
+        const accessToken = token.split(' ')[1];
+        if(!accessToken) {
+            throw new Error();
+        }
+        console.log(accessToken, 'token');
+
         const userData = await tokenService.verifyAccessToken(accessToken);
-        console.log(userData);
+        console.log(userData, 'userdata');
         if(!userData) {
             throw new Error();
         }

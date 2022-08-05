@@ -1,0 +1,381 @@
+[
+    {
+        "name": "Burger",
+        "image": "https://drive.google.com/file/d/1Sac7AdzZHUC3TP1HHM22ImAO4vn2h-dp/view?usp=sharing",
+        "price": "60",
+        "size": "medium",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "starter"
+    },
+    {
+        "name": "Chowmein",
+        "image": "https://drive.google.com/file/d/1NBUiAincna_I8WkjTo4_kkqvktXFGdA5/view?usp=sharing",
+        "price": "220",
+        "size": "large",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "starter"
+    },
+    {
+        "name": "Dosa",
+        "image": "https://drive.google.com/file/d/1VTO3hHXLuhwP12q67xnCRnpPHe8bdbDC/view?usp=sharing",
+        "price": "90",
+        "size": "medium",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "starter"
+    },
+    {
+        "name": "Cutlet",
+        "image": "https://drive.google.com/file/d/1KIImsxtZa0XhpMXsirjSLpKX6H0RA_M8/view?usp=sharing",
+        "price": "120",
+        "size": "medium",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "starter"
+    },
+    {
+        "name": "Dabeli",
+        "image": "https://drive.google.com/file/d/1V1fq5y-8zVzXqg478s9vRFodDMfrPVFY/view?usp=sharing",
+        "price": "50",
+        "size": "small",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "starter"
+    },
+    {
+        "name": "Chocolate Shake",
+        "image": "https://drive.google.com/file/d/1UTUb03ONcwfnY0LCdPbJYXwVN5pAg37B/view?usp=sharing",
+        "price": "70",
+        "size": "medium",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "drink"
+    },
+    {
+        "name": "Chilli paneer",
+        "image": "https://drive.google.com/file/d/1rdDPuwGyfKmjcl8UkOakFKGpFhlZ73Pp/view?usp=sharing",
+        "price": "300",
+        "size": "large",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "dinner"
+    },
+    {
+        "name": "Special Offer",
+        "image": "https://drive.google.com/file/d/1bu1ZUNtyVxCoGGDqfiI1bV0RxmDEMKOl/view?usp=sharing",
+        "price": "250",
+        "size": "medium",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "dinner"
+    },
+    {
+        "name": "Mega offer",
+        "image": "https://drive.google.com/file/d/1lhJS31S_LPLVL49pXQ_yrpv-5tZsPK3u/view?usp=sharing",
+        "price": "200",
+        "size": "small",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "dinner"
+    },
+    {
+        "name": "Fried rice",
+        "image": "https://drive.google.com/file/d/1CC6hJwo85jwyioRKRBSSMncAMhNvg_xR/view?usp=sharing",
+        "price": "180",
+        "size": "large",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "dinner"
+    },
+    {
+        "name": "French fries",
+        "image": "https://drive.google.com/file/d/1yQTcQZerl4DUTS9ffBxPuPAuflU2njTG/view?usp=sharing",
+        "price": "220",
+        "size": "large",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "starter"
+    },
+    {
+        "name": "Gulab Jamun",
+        "image": "https://drive.google.com/file/d/1Zv-Ff-BSEjqo3uBs5850kNb5RA2zYOyf/view?usp=sharing",
+        "price": "150",
+        "size": "small",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "sweet"
+    },
+    {
+        "name": "Idli",
+        "image": "https://drive.google.com/file/d/1BASrwawv0TryTCvMxtgiuO9paKsrEhDd/view?usp=sharing",
+        "price": "90",
+        "size": "medium",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "starter"
+    },
+    {
+        "name": "Pizza",
+        "image": "https://drive.google.com/file/d/1HK7qv6cp3xOTcKegvK6UP9SH0bYq4T5r/view?usp=sharing",
+        "price": "120",
+        "size": "small",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "starter"
+    },
+    {
+        "name": "Kadai paneer",
+        "image": "https://drive.google.com/file/d/14PxIdow6sjrGm9mw_K9WO4aEgxpVCdM5/view?usp=sharing",
+        "price": "300",
+        "size": "large",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "dinner"
+    },
+    {
+        "name": "Kaju katli",
+        "image": "https://drive.google.com/file/d/1MLe2pRgAOIJkQYTP0c0dNqyIh2pcAfCb/view?usp=sharing",
+        "price": "240",
+        "size": "small",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "sweet"
+    },
+    {
+        "name": "Macroni",
+        "image": "https://drive.google.com/file/d/1qsCunbLhxN50vAkKQQuYuAZMpmQhBYhs/view?usp=sharing",
+        "price": "100",
+        "size": "medium",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "starter"
+    },
+    {
+        "name": "Mango juice",
+        "image": "https://drive.google.com/file/d/138JIIHHx1qkgGGhEgszREud1i-4tuQmE/view?usp=sharing",
+        "price": "50",
+        "size": "small",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "drink"
+    },
+    {
+        "name": "Missi roti",
+        "image": "https://drive.google.com/file/d/1XHyXXBfg1NnynI4ORIE9kFPnKu9C2JZR/view?usp=sharing",
+        "price": "30",
+        "size": "medium",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "bread"
+    },
+    {
+        "name": "Butter naan",
+        "image": "https://drive.google.com/file/d/1paclX_w9Unv36TeJlwdcwlahJerD_70r/view?usp=sharing",
+        "price": "35",
+        "size": "medium",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "bread"
+    },
+    {
+        "name": "Noodles",
+        "image": "https://drive.google.com/file/d/1D49vy_v1lCKVeTKiZhJw79w34mwEKlce/view?usp=sharing",
+        "price": "60",
+        "size": "small",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "starter"
+    },
+    {
+        "name": "Orange juice",
+        "image": "https://drive.google.com/file/d/1KJROrPB23UadHj311dLUHF5iPt50Ndkw/view?usp=sharing",
+        "price": "80",
+        "size": "medium",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "drink"
+    },
+    {
+        "name": "Palak paneer",
+        "image": "https://drive.google.com/file/d/1MmMUStM1IX4eja8MMwbHtbeFfTn4qJeK/view?usp=sharing",
+        "price": "280",
+        "size": "large",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "dinner"
+    },
+    {
+        "name": "Paneer masala",
+        "image": "https://drive.google.com/file/d/1q45qvm2CEE5FqdL-wKBpsWaikd579VhB/view?usp=sharing",
+        "price": "320",
+        "size": "large",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "dinner"
+    },
+    {
+        "name": "Paneer pakoda",
+        "image": "https://drive.google.com/file/d/1L6uEhB4XZiL_ZcGF5BmYbpgx6VDn8xme/view?usp=sharing",
+        "price": "80",
+        "size": "small",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "starter"
+    },
+    {
+        "name": "Paneer roll",
+        "image": "https://drive.google.com/file/d/1edd5xQVWMRxXIe_qX5TkWgf0YOkqqTEZ/view?usp=sharing",
+        "price": "80",
+        "size": "medium",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "starter"
+    },
+    {
+        "name": "Paneer tikka",
+        "image": "https://drive.google.com/file/d/16j7FcKEQLLwQ5kpQwdmmzrt1YK3oQAGf/view?usp=sharing",
+        "price": "130",
+        "size": "large",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "starter"
+    },
+    {
+        "name": "Paneer kabab",
+        "image": "https://drive.google.com/file/d/1Sac7AdzZHUC3TP1HHM22ImAO4vn2h-dp/view?usp=sharing",
+        "price": "120",
+        "size": "medium",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "starter"
+    },
+    {
+        "name": "Pani puri",
+        "image": "https://drive.google.com/file/d/1DYeTnCN5U0wgh0gvMPXkDvJOx6TF2hhz/view?usp=sharing",
+        "price": "40",
+        "size": "small",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "starter"
+    },
+    {
+        "name": "Pasta",
+        "image": "https://drive.google.com/file/d/1yiDYvQ8iq4Mz8qXec5LhRVP1rTJ9WEop/view?usp=sharing",
+        "price": "90",
+        "size": "medium",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "starter"
+    },
+    {
+        "name": "Patties",
+        "image": "https://drive.google.com/file/d/1TpYzx55P__mA98ijwzl8XAtQjOGu1O-1/view?usp=sharing",
+        "price": "60",
+        "size": "small",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "starter"
+    },
+    {
+        "name": "Pav bhaji",
+        "image": "https://drive.google.com/file/d/1vSlGAzt41Ejjja-MMkCTq2vRuEDzwrO0/view?usp=sharing",
+        "price": "80",
+        "size": "medium",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "starter"
+    },
+    {
+        "name": "Margherita",
+        "image": "https://drive.google.com/file/d/1kXFou-9xub70hhtwcTT7WAsrCmW9LgUe/view?usp=sharing",
+        "price": "180",
+        "size": "medium",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "starter"
+    },
+    {
+        "name": "Americana",
+        "image": "https://drive.google.com/file/d/1aZ2d7iPgd3tlkDBjWdM_lGNqoZjp7o1e/view?usp=sharing",
+        "price": "200",
+        "size": "medium",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "starter"
+    },
+    {
+        "name": "Rabri",
+        "image": "https://drive.google.com/file/d/1j758T1UqZSsrDgi3x_yjXLa5NN14Um9s/view?usp=sharing",
+        "price": "240",
+        "size": "large",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "sweet"
+    },
+    {
+        "name": "Ras malai",
+        "image": "https://drive.google.com/file/d/1RT05x3aUGgsI_EhP_vZkMPLvGBLPYWXr/view?usp=sharing",
+        "price": "40",
+        "size": "large",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "sweet"
+    },
+    {
+        "name": "Rasogola",
+        "image": "https://drive.google.com/file/d/1tTlNvrDWDKGVuc1sMpSXmdKU_7cwIg_z/view?usp=sharing",
+        "price": "30",
+        "size": "medium",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "sweet"
+    },
+    {
+        "name": "Sandwitch",
+        "image": "https://drive.google.com/file/d/1EFpstk77qIO_Aqos6GR6whzmt6dR9N1y/view?usp=sharing",
+        "price": "120",
+        "size": "medium",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "starter"
+    },
+    {
+        "name": "Special coffee",
+        "image": "https://drive.google.com/file/d/16_-q5XBRmGatWWkkcVOSVUGqC_IrEij9/view?usp=sharing",
+        "price": "40",
+        "size": "medium",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "drink"
+    },
+    {
+        "name": "Spring roll",
+        "image": "https://drive.google.com/file/d/1mLcR9cDffONG5bG3eMntR2gwcS7gSf6K/view?usp=sharing",
+        "price": "150",
+        "size": "large",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "starter"
+    },
+    {
+        "name": "Special shake",
+        "image": "https://drive.google.com/file/d/1iED--e80FozWstpXzXOrDyMAzcCrZ-c3/view?usp=sharing",
+        "price": "120",
+        "size": "large",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "drink"
+    },
+    {
+        "name": "Starter mega",
+        "image": "https://drive.google.com/file/d/15FyBTR0s4LSCx9oMMZvDX9PSXiu9548l/view?usp=sharing",
+        "price": "180",
+        "size": "large",
+        "restraunt": ["Pizza slice", "Sleep Inn", "Food plaza", "Palm Resort", "The Kitchen", "Milan"],
+        "stock": true,
+        "category": "starter"
+    }
+
+]
